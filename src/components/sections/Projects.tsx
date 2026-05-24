@@ -18,8 +18,7 @@ export function Projects() {
         </div>
       </AnimatedSection>
 
-      {/* Flashlight glow container — desktop only */}
-      <div className="md:rounded-xl md:border md:border-outline-variant/20 md:[background:var(--bg-container-glow)] md:pt-10 md:px-10 md:pb-6 grid md:grid-cols-2 gap-8 md:gap-10">
+      <div className="grid md:grid-cols-2 gap-8 md:gap-10">
           {projects.map((project, i) => (
             <div
               key={project.id}

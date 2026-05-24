@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 export function Contact() {
   return (
     <section id="contact" className="py-16 md:py-32 max-w-7xl mx-auto px-6">
+      <div className="h-px section-divider mb-16 md:mb-24" />
       <AnimatedSection className="text-center max-w-2xl mx-auto space-y-8">
         <div className="space-y-4">
-          <span className="text-gradient font-mono text-sm tracking-widest">04. What's Next?</span>
           <h2 className="text-on-surface text-5xl font-bold tracking-tight">Get In Touch</h2>
         </div>
 
