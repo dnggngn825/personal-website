@@ -37,7 +37,7 @@ export function Hero() {
           className="text-secondary text-2xl md:text-4xl font-display font-bold tracking-tight opacity-80 animate-fade-up"
           style={{ animationDelay: "200ms" }}
         >
-          Software Engineer @ WiseTech Global
+          Software Engineer
         </h2>
         <div
           className="flex flex-wrap gap-4 pt-8 animate-fade-up"

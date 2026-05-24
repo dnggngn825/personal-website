@@ -18,7 +18,7 @@ export const skillGroups: SkillGroup[] = [
   {
     category: 'Backend & Cloud',
     icon:     'layers',
-    items:    ['Node.js', 'ASP.NET Core', '.NET Framework', 'Entity Framework', 'RESTful APIs', 'GraphQL', 'AWS', 'AWS Amplify'],
+    items:    ['Node.js', 'ASP.NET Core', '.NET Framework', 'Entity Framework', 'RESTful APIs', 'GraphQL', 'AWS', 'AWS Amplify', 'Azure'],
   },
   {
     category: 'Testing',

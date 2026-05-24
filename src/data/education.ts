@@ -7,13 +7,13 @@ export interface EducationEntry {
 
 export const education: EducationEntry[] = [
   {
-    period:      '7/2019 – 12/2021',
+    period:      'Jul 2019 – Dec 2021',
     degree:      'Master of Engineering (Mechatronics)',
     institution: 'University of Melbourne',
     wam:         78.25,
   },
   {
-    period:      '7/2016 – 6/2019',
+    period:      'Jul 2016 – Jun 2019',
     degree:      'Bachelor of Science – Mechatronics',
     institution: 'University of Melbourne',
     wam:         74,

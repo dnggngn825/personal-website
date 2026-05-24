@@ -9,7 +9,7 @@ export interface ExperienceEntry {
 
 export const experiences: ExperienceEntry[] = [
   {
-    period: "Aug 2021 – Present",
+    period: "Aug 2021 – Jun 2026",
     title: "Software Engineer",
     company: "WiseTech Global",
     type: "Full-time",
@@ -62,7 +62,7 @@ export const experiences: ExperienceEntry[] = [
     ],
   },
   {
-    period: "1/2021 – 12/2021",
+    period: "Jan 2021 – Dec 2021",
     title: "Autonomous Steering Engineer",
     company: "Melbourne University Racing Motorsports",
     type: "University Project",
