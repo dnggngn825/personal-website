@@ -1,6 +1,7 @@
 import { owner } from '../../data/owner'
 import { education } from '../../data/education'
 import { skillGroups } from '../../data/skills'
+import { certifications } from '../../data/certifications'
 import { AnimatedSection } from '../ui/AnimatedSection'
 import { GitHubIcon } from '../ui/GitHubIcon'
 import profileImg from '../../assets/images/profile.jpg'
@@ -100,8 +101,33 @@ export function About() {
           </div>
         </AnimatedSection>
 
+        {/* Licenses & Certifications — full width */}
+        <AnimatedSection delay={300} className="md:col-span-5">
+          <div className="space-y-3 pt-4">
+            <h3 className="text-on-surface text-sm font-bold uppercase tracking-widest">
+              Licenses &amp; Certifications
+            </h3>
+            <div>
+              {certifications.map((cert) => (
+                <div
+                  key={cert.name}
+                  className="flex justify-between items-start gap-4 py-2 border-b border-outline-variant/20"
+                >
+                  <div>
+                    <p className="text-on-surface text-sm font-semibold">{cert.name}</p>
+                    <p className="text-secondary text-xs">{cert.issuer}</p>
+                  </div>
+                  <div className="text-right shrink-0">
+                    <p className="text-secondary text-xs font-mono">{cert.date}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </AnimatedSection>
+
         {/* Education — full width */}
-        <AnimatedSection delay={350} className="md:col-span-5">
+        <AnimatedSection delay={400} className="md:col-span-5">
           <div className="space-y-3 pt-4">
             <h3 className="text-on-surface text-sm font-bold uppercase tracking-widest">
               Education
@@ -121,7 +147,7 @@ export function About() {
                   <p className="text-primary text-xs font-mono">
                     WAM {edu.wam}
                   </p>
-                  <p className="text-secondary text-xs">{edu.period}</p>
+                  <p className="text-secondary text-xs font-mono">{edu.period}</p>
                 </div>
               </div>
             ))}
