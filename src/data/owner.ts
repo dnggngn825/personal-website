@@ -6,12 +6,11 @@ export const owner = {
   linkedin: 'https://www.linkedin.com/in/dang-nguyen-89a563170/',
   location: 'Melbourne, VIC, AU',
   bio: [
-    "Software Engineer with a Master's in Mechatronics and 4+ years at WiseTech Global"
-    +" building and maintaining platform-level tools for CargoWise in an Agile team — working full-stack across"
-    +" Vue 3, TypeScript, C#, and .NET on Platform Builder (a low-code platform for building"
-    +" CargoWise web portals), a configuration test framework, an internal frontend framework,"
-    +" and a localization pipeline used across 41 product teams."
+    "Fullstack Software Engineer with 4+ years building platform-level systems at WiseTech Global,"
+    +" including re-architecting a form flow engine adopted by 41 product teams, developer tooling used by 200+ engineers,"
+    +" and a localisation pipeline supporting 49 languages across CargoWise's global portals."
+    +" Works full-stack across TypeScript, Vue 3, C#, and .NET,"
+    +" with a track record of owning complex migrations end-to-end and delivering with engineering rigour."
     +" Additional background in embedded systems and robotics from prior internship and university projects.",
-
   ],
 } as const

@@ -10,18 +10,19 @@ export interface ExperienceEntry {
 export const experiences: ExperienceEntry[] = [
   {
     period: "Aug 2021 – Jun 2026",
-    title: "Software Engineer",
+    title: "Fullstack Software Engineer",
     company: "WiseTech Global",
     type: "Full-time",
     bullets: [
-      "Built and maintained a CLI tool that reads YAML-serialized form flow metadata and uses the TypeScript compiler API to resolve types and emit declaration files via module augmentation — providing end-to-end compile-time type safety between C# backend models and TypeScript form definitions.",
-      "Led a repo-wide migration from YAML-based form flows to TypeScript-coded implementations — extended an AST-based parser using the TypeScript compiler API to statically extract JSDoc metadata, parameter types, and C#↔TypeScript type mappings from source files without compilation, serving the form flow pipeline used across 41 product teams.",
-      "Fixed bugs and built new features in Platform Builder, a low-code platform used across CargoWise to build and configure web portal applications for end clients — working across the Vue 3 frontend and C#/.NET backend, covering UI layouts, form flows, and business rules.",
-      "Maintained an internal localisation/translation pipeline integrated into an in-house CI/CD system, added support for extracting translatable strings defined in Vue files, and worked closely with the translation team to ensure it runs smoothly across repositories.",
-      "Extended Glow Runner — an internal Node.js process orchestrator (TypeScript, Express, PubSub-JS) for managing parallel frontend build pipelines — by integrating new processes into the pub/sub message bus for real-time state propagation across monitoring and notification systems, and expanded pipeline coverage to the organisation's frontend product repository.",
-      "Mentored junior engineers through code reviews, covering platform internals and best practices.",
-      "Developed a solid understanding of engineering best practices including Agile, design patterns, and test-driven development through day-to-day work on the team.",
-      "Took ownership of features end-to-end — from scoping and design through to implementation, testing, and release — with growing autonomy and reduced oversight over time.",
+      "Re-architected a YAML-based form flow engine and Knockout.js UI into a code-driven TypeScript and Vue 3 framework, adding Playwright integration tests to validate correctness with zero regressions.",
+      "Led the rollout of the migration across 41 product teams over 15+ months as the primary point of contact, triaging issues and sustaining adoption momentum across the organisation.",
+      "Drove the migration of 70+ core JavaScript modules to TypeScript, improving type safety and reducing runtime errors across shared frontend surfaces.",
+      "Built internal developer tooling including a Node.js process orchestrator with MCP server and CLI interfaces on an event-driven architecture, improving productivity for 200+ engineers.",
+      "Replaced legacy form flow components with redesigned implementations, engineering backward compatibility validation, integration tests, and unit tests before rolling changes out safely across 30+ product teams.",
+      "Owned and extended Platform Builder, a low-code CargoWise portal configuration platform, adding full-stack capabilities across Vue 3 via WebView2 and C# .NET Framework that unblocked product teams to build their own business logic without platform team involvement.",
+      "Extended a localisation pipeline supporting translation of globally used CargoWise web portals into 49 languages, expanding coverage across multiple product repositories.",
+      "Maintained frontend build infrastructure across multiple repositories including Vite, Rspack, and Webpack configurations, enforcing code quality and consistency through ESLint standards and Vitest/Jest test suites.",
+      "Mentored junior engineers on platform architecture, code quality, and best practices through code reviews and direct guidance, drawing on deep expertise across large-scale TypeScript and JavaScript frontend systems.",
     ],
     projects: [
       {

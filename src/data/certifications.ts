@@ -11,4 +11,9 @@ export const certifications: Certification[] = [
     issuer: 'Microsoft',
     date:   'May 2026',
   },
+  {
+    name:   'Deep Learning Specialization',
+    issuer: 'DeepLearning.AI',
+    date:   'Mar 2020',
+  },
 ]
